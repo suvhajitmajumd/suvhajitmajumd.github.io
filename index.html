@@ -1,67 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AMV-MAIN</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            color: white;
-            text-align: center;
-        }
-
-        h1 {
-            margin-top: 40px;
-            font-size: 2.8rem;
-            font-weight: 700;
-            text-shadow: 0 3px 8px rgba(0,0,0,0.4);
-        }
-
-        h2 {
-            margin-top: 10px;
-            font-size: 1.8rem;
-            font-weight: 600;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            margin-top: 40px;
-        }
-
-        li {
-            margin: 15px 0;
-        }
-
-        a {
-            text-decoration: none;
-            font-size: 1.4rem;
-            font-weight: 600;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 12px 25px;
-            border-radius: 12px;
-            color: white;
-            backdrop-filter: blur(4px);
-            transition: 0.3s ease;
-        }
-
-        a:hover {
-            background: rgba(255, 255, 255, 0.35);
-            transform: scale(1.06);
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><u><i>AGARPARA MAHAJATI VIDYAPITH</i></u></h1>
-    <h2>AVAILABLE STREAMS</h2>
-    <ul>
-        <li><a href="art.html">Humanities</a></li>
-        <li><a href="sc.html">Science</a></li>
-        <li><a href="com.html">Commerce</a></li>
-    </ul>
+
+    <div class="container">
+        <h1>Hi, I’m <span id="name">Your Name</span> 👋</h1>
+        <p class="tagline">Student • Developer • Gamer • Dreamer</p>
+
+        <div class="links">
+            <a href="https://instagram.com/YOUR_USERNAME" target="_blank">📸 Instagram</a>
+            <a href="https://github.com/YOUR_USERNAME" target="_blank">💻 My GitHub Repos</a>
+            <a href="mailto:YOUR_EMAIL@gmail.com">✉️ Gmail Me</a>
+        </div>
+
+        <hr>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a student and aspiring software developer learning web development, JavaScript, and modern programming. I love creating things that live on the internet.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML / CSS / JS</li>
+                <li>Git & GitHub</li>
+                <li>Basic Python</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <section id="future">
+            <h2>My Goals</h2>
+            <p>To become a top-tier developer, crack JEE, and build impactful projects.</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
